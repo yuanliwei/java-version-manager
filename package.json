@@ -1,0 +1,30 @@
+{
+  "name": "java-version-manager",
+  "version": "1.0.0",
+  "description": "java version manager",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "java",
+    "version",
+    "manager",
+    "jvm"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuanliwei/java-version-manager"
+  },
+  "homepage": "https://github.com/yuanliwei/java-version-manager",
+  "author": "yuanliwei",
+  "license": "MIT",
+  "bin": {
+    "java-version-manager": "./bin/java-version-manager.js",
+    "jvm": "./bin/java-version-manager.js"
+  },
+  "dependencies": {
+    "ansi-colors": "^4.1.3",
+    "minimist": "^1.2.8"
+  }
+}
